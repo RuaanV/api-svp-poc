@@ -5,6 +5,19 @@ import (
 	"net/http"
 )
 
+type Sku struct {
+	//SKU ID for JSON response
+	skuID               int64
+	skuIDOdbms          int32
+	productStyleId      string
+	productStyleIdOdbms int32
+	productStyleName    string
+	variantTypeId       string
+	variantTypeName     string
+	skuDescription      string
+	size                string
+}
+
 type Skus struct {
 }
 
