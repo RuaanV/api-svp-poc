@@ -1,9 +1,8 @@
-package blah
+package 
 
 import (
-	"fmt"
 	"net/http"
-
+	"fmt"
 	"github.com/gorilla/mux"
 )
 
@@ -34,7 +33,7 @@ func NewRouter() *mux.Router {
 }
 
 func Index(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "River Island SKU Service")
+	fmt.Fprintf(w, "Hello World!")
 }
 
 var routes = Routes{
@@ -72,4 +71,5 @@ var routes = Routes{
 		"/RuaanV/skus/1.0.0/skus",
 		ListSkus,
 	},
+
 }

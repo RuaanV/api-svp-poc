@@ -1,7 +1,6 @@
-package blah
+package 
 
 import (
-	"fmt"
 	"net/http"
 )
 
@@ -20,6 +19,7 @@ type Sku struct {
 
 //Skus Need to discuss how we declare an array/slices of the SKU type as a collection
 type Skus struct {
+
 }
 
 //GetSkuByID retieves a single sku by its ID
@@ -32,8 +32,8 @@ func GetSkuByID(w http.ResponseWriter, r *http.Request) {
 }
 
 func ListSkus(w http.ResponseWriter, r *http.Request) {
-	w.Header().Set("Content-Type", "application/json; charset=UTF-8")
-	w.WriteHeader(http.StatusOK)
+		w.Header().Set("Content-Type", "application/json; charset=UTF-8")
+		w.WriteHeader(http.StatusOK)
 }
 
 type Message struct {
