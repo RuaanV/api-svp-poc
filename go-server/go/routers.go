@@ -62,7 +62,7 @@ var routes = Routes{
 		"GetSkuById",
 		"GET",
 		"/RuaanV/skus/1.0.0/sku/{skuId}",
-		GetSkuById,
+		GetSkuByID,
 	},
 
 	Route{
