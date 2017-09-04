@@ -1,8 +1,9 @@
-package 
+package blah
 
 import (
-	"net/http"
 	"fmt"
+	"net/http"
+
 	"github.com/gorilla/mux"
 )
 
@@ -71,5 +72,4 @@ var routes = Routes{
 		"/RuaanV/skus/1.0.0/skus",
 		ListSkus,
 	},
-
 }
