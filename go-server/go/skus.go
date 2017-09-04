@@ -50,7 +50,7 @@ type Message struct {
 }
 
 //SKU data collection of skus
-type SKU struct {
+type Data struct {
 	skus []Sku
 }
 

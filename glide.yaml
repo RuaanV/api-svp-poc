@@ -1,0 +1,4 @@
+package: github.com/RuaanV/api-svp-poc
+import:
+- package: github.com/gorilla/mux
+  version: ^1.4.0
